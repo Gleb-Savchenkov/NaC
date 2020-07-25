@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noughts_and_Crosses.by_Yaonosos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Noughts and Crosses" Height="400" Width="300">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="145*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="POOD" Content="Play on on device" Margin="53,42,53,0" VerticalAlignment="Top" BorderBrush="#FFA7E8E8" FontFamily="Verdana" FontSize="14" Width="186" Grid.ColumnSpan="2" Height="30" Background="#FFA7E8E8" Foreground="Black" Click="POOD_Click">
+            <Button.Effect>
+                <DropShadowEffect Opacity="0.3" Direction="270" ShadowDepth="4"/>
+            </Button.Effect>
+        </Button>
     </Grid>
 </Window>

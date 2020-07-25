@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Noughts_and_Crosses.by_Yaonosos
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Game.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Game : Window
     {
-        public MainWindow()
+        public Game()
         {
             InitializeComponent();
-        }
-
-        private void POOD_Click(object sender, RoutedEventArgs e)
-        {
-            new Game().ShowDialog();
         }
     }
 }
